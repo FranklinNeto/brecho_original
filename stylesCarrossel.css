@@ -32,7 +32,7 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
-  border: none;
+  border: solid black 5px;
   background: linear-gradient(to left, transparent 0%, black 200%);
   opacity: 0.1;
   transition: all 600ms ease-in-out;

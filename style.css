@@ -59,7 +59,11 @@ body {
 }
 
 .color-azul {
-  color: #1b3b56;
+  color: #b0578d;
+  text-shadow: 0 0 5px #b0578d;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.8s ease;
 }
 
 .color-azul-1 {
@@ -112,7 +116,7 @@ img {
 
 button {
   padding: 10px 20px;
-  background: #1b3b56;
+  background: #b0578d;
   color: #fff;
   font-size: 14px;
   border: none;
@@ -123,8 +127,8 @@ button {
 }
 
 button:hover {
-  border: 1px solid #8b634a;
-  background: #8b634a;
+  border: 1px solid #d988b9;
+  background: #d988b9;
   color: #fff;
   transform: scale(1.1);
 }
@@ -147,13 +151,13 @@ button:hover {
   justify-content: flex-start;
   flex-direction: column;
   margin-top: 40px;
-  text-shadow: 0 0 10px #545454;
-  color: #2b2b2b;
+  text-shadow: 0 0 10px #d988b9;
+  color: #b0578d;
 }
 .line {
   width: 80%;
   height: 2px;
-  background: #17203f;
+  background: #b0578d;
   position: relative;
   top: 40px;
 }
@@ -166,7 +170,7 @@ button:hover {
   text-align: center;
   width: 200px;
   font-size: 18px;
-  background: #8b634a;
+  background: #b0578d;
   color: #fff;
 }
 
@@ -200,10 +204,19 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0 2%;
-  background: #c3bcb7;
+  background: #714f64;
 }
 
-.logo {
+.loja_virtual {
+  color: #facbea;
+  font-size: 36px;
+  text-shadow: 0 0 5px #facbea;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
+
+/* .logo {
   background: url("image/logo-roupa.png") no-repeat;
   background-size: contain;
   width: 130px;
@@ -211,14 +224,14 @@ button:hover {
   position: relative;
   top: 20px;
   z-index: 9;
-}
+} */
 
 #back-to-top {
   position: fixed;
   bottom: 2px;
   right: 10px;
   padding: 5px 10px;
-  background: #8b634a;
+  background: #b0578d;
 }
 
 body::-webkit-scrollbar {
@@ -247,8 +260,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a {
-  color: #17203f;
-  text-shadow: 0 0 5px #848790;
+  color: #facbea;
+  text-shadow: 0 0 5px #facbea;
   font-size: 23px;
   font-weight: 300;
   text-decoration: none;
@@ -256,8 +269,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a:hover {
-  color: #8b634a;
-  text-shadow: 0 0 5px #8b634a;
+  color: #ffe4d6;
+  text-shadow: 0 0 5px #ffe4d6;
   font-weight: 400;
   text-decoration: underline;
 }
@@ -515,13 +528,13 @@ span {
 #Contact .container .left .box {
   width: 100%;
   height: 50vh;
-  background: #c3bcb7;
+  background: #facbea;
 }
 
 #Contact .container .left .box h1 {
   margin-bottom: 30px;
   margin-top: 30px;
-  color: #1b3b56;
+  color: #000000;
 }
 
 #Contact .container .left .box form {
@@ -540,7 +553,7 @@ span {
 }
 
 #Contact .container .left .box .social {
-  color: #1b3b56;
+  color: #d988b9;
   font-size: 32px;
 }
 
@@ -552,24 +565,24 @@ span {
 }
 
 #Contact .container .left .box .social i:hover {
-  color: #8b634a;
+  color: #b0578d;
 }
 
 #Contact .container .left .box form input[type="submit"] {
-  background: #1b3b56;
+  background: #b0578d;
   color: #fff;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 #Contact .container .left .box form input[type="submit"]:hover {
-  background: #8b634a;
+  background: #d988b9;
 }
 
 #Contact .container .right .box {
   width: 100%;
   height: 50vh;
-  background: #c3bcb7;
+  background: #facbea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -585,7 +598,7 @@ span {
 #Contact .container .right .box .icons i {
   padding: 20px 0;
   font-size: 32px;
-  color: #1b3b56;
+  color: #d988b9;
 }
 
 #Contact .container .right .box .text {
@@ -599,13 +612,13 @@ span {
   padding: 25px 0;
   font-size: 18px;
   font-weight: 600;
-  color: #1b3b5614;
+  color: #000000;
 }
 
 #Contact .container .right .box h1 {
   margin-bottom: 30px;
   margin-top: 30px;
-  color: #1b3b56;
+  color: #000000;
 }
 
 #Contact .container .right {
@@ -631,7 +644,7 @@ footer .container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #c3bcb7;
+  background: #facbea;
 }
 
 footer .container img {
@@ -641,7 +654,7 @@ footer .container img {
 
 footer .container p {
   font-weight: 600;
-  color: #1b3b56;
+  color: #000000;
   font-family: "Montserrat Alternates", sans-serif;
 }
 
